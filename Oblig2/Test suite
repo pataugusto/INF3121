@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="1. Register.html">1. Register</a></td></tr>
+<tr><td><a href="2. Select Product.html">2. Select Product</a></td></tr>
+<tr><td><a href="3. Continue Shopping.html">3. Continue Shopping</a></td></tr>
+<tr><td><a href="4. Change Number of Items.html">4. Change Number of Items</a></td></tr>
+<tr><td><a href="5. Finalize.html">5. Finalize</a></td></tr>
+<tr><td><a href="6. Checkout.html">6. Checkout</a></td></tr>
+<tr><td><a href="7. Sign out.html">7. Sign Out</a></td></tr>
+</tbody></table>
+</body>
+</html>

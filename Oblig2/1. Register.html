@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://demo.avactis.com/4.7.9/" />
+<title>1. Register</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">1. Register</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/index.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sign In</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][Email]</td>
+	<td>INF3121test@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][Password]</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][RePassword]</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][FirstName]</td>
+	<td>Test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][LastName]</td>
+	<td>Script</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=customer_info_Customer_Country</td>
+	<td>label=United Kingdom (Great Britain)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=customer_info_Customer_State</td>
+	<td>label=Cleveland</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][ZipCode]</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][City]</td>
+	<td>Oslo</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][Streetline1]</td>
+	<td>Somewhere</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][Streetline2]</td>
+	<td>Someplace</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customer_info[Customer][Phone]</td>
+	<td>98765432</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Register']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Change Password</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=account_change_password_form_current_password_id</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=account_change_password_form_new_password_id</td>
+	<td>Test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=account_change_password_form_retype_password_id</td>
+	<td>Test</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Continue']</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
