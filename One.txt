@@ -1,0 +1,24 @@
+Saliha
+
+Check the maximum and minimum number of players that can be added
+Check if the score ranking list is right, that if you always end up in top 5
+Check if you can move outwards of the maze. 
+Check if trying to move outwards of the edges counts as a step. 
+Check if you can move to a blocked cell
+Check if trying to move to a blocked cell counts as a move
+Check if you can exit the game
+
+
+
+
+--------------
+Patrick
+
+Check if long names are allowed (I.E.: Possible to write first & last name)
+Does the program handle special characters when input?
+Is there a maximum number of tries?
+Check if it's possible to use a command that is not given.
+Check if scoring system is up to date (I.E.: Players don't lose their correct place in the scoreboard)
+
+
+What happens if your score is equal to the one in fifth place?
